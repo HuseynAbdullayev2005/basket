@@ -1,0 +1,52 @@
+.cards{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 50px;
+
+    margin: auto;
+  
+}
+
+.card{
+ min-height: 10vh;   
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    
+    width: calc(20% - 50px);
+    border: 1px solid black;
+}
+.add_button{
+    padding: 10px 30px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.card_image{
+    width: 100%;
+}
+.card_image img{
+    width: 100%;
+    height: 100px;
+    object-fit: fill;
+
+}
+
+.basket{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    min-height: 50vh;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+.new_basket_element{
+    width: 33%;
+    border: 1px solid black;
+}
